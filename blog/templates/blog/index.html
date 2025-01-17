@@ -15,7 +15,7 @@
         <h1>Welcome to Our Project</h1>
     </div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid mt-5">
     <div class="row">
 
         <!-- Blog Entries Column -->
@@ -32,6 +32,7 @@
                             </div>
                             <a href="#" class="post-link">
                                 <h2 class="card-title">{{ post.title }}</h2>
+                                <p class="card-text">{{ post.excerpt }}</p>
                             </a>
 
                             <hr />
@@ -61,4 +62,8 @@
 </div>
 
 <!-- index.html content ends here -->
+{% endblock %}
+
+{% block copyright %}
+    Copyright 2023 Prajakta Sarnaik
 {% endblock %}
