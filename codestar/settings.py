@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_summernote',
     'blog', # Add the blog app to the list of installed apps
+    'about', # Add the about app to the list of installed apps
 ]
 
 MIDDLEWARE = [
