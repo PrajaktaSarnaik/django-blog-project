@@ -92,7 +92,9 @@ body {
     transform: skew(15deg);
     z-index: 100;
 }
-
+.profile-image{
+    width: 75%
+}
 .post-link {
     text-decoration: none;
     color: #445261;
